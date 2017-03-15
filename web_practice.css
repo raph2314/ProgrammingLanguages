@@ -1,0 +1,27 @@
+body{
+	background: #8EC4FF;
+}
+
+.opening {
+	/*font-family: 'Josephin Sans', sans-serif;*/
+	font-weight: lighter;
+	
+	letter-spacing: 0.01em;
+}
+
+#seaside {
+	width: 100%;
+	height: 600px;
+}
+
+#name {
+	text-align: left;
+
+
+	
+}
+
+#about {
+	text-align: right;
+
+}

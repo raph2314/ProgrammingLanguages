@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f7f7f7;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+}
+
+.header {
+  background: "http://scontent.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/12798168_101050160292730_445759185_n.jpg?ig_cache_key=MTIwNDM2MzgzMTYwNjE4MTQzMw%3D%3D.2");
+  height: 400px;
+  background-position: center center;
+}
+
+* {
+	position: relative;
+	text-align: center;
+}
+
+h1 {
+  
+  color: lime;
+
+  font-family: 'Covered By Your Grace', sans-serif;
+  font-size: 100px;
+  line-height: 76px;
+  margin: 0;
+  position: relative;
+  text-align: center; 
+  top: 20%;
+}
+
+p {
+  color: #444444;
+  line-height: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}

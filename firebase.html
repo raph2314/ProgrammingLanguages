@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Firebase Test </title>
+</head>
+<body>
+
+
+<h1 id="bigOne"></h1>
+
+</body>
+
+
+<script src="https://www.gstatic.com/firebasejs/3.7.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD9ACL2FDgf_4szK1R4bhegsYUrUdKCpXE",
+    authDomain: "first-test-69afe.firebaseapp.com",
+    databaseURL: "https://first-test-69afe.firebaseio.com",
+    storageBucket: "first-test-69afe.appspot.com",
+    messagingSenderId: "578337189276"
+  };
+  firebase.initializeApp(config);
+
+  var bigOne = document.getElementById('bigOne');
+  car dbRef = firebase.database().ref().child('text';
+  dbRef.on('value', snap => bigOne.innerText = snap.val());
+</script>
+</html>
